@@ -12,5 +12,7 @@ library(DOTH)
 
 #########Example
 fileinput=system.file("Test.dat.gz",package="CaTCH")
+
 library(CaTCH)
+
 domain.call(fileinput)
