@@ -1,5 +1,7 @@
 # CaTCH_R
 
+########Download DOTH_1.0.tar.gz 
+
 ########Check that you have all libraries:
 R CMD check DOTH_1.0.tar.gz
 #########should give just a note about empty directories
