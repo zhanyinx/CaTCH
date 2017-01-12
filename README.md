@@ -7,7 +7,7 @@ R CMD check CaTCH_1.0.tar.gz
 #########should give just a note about empty directories
 
 #########To install:
-R CMD install CaTCH_1.0.tar.gz 
+R CMD INSTALL CaTCH_1.0.tar.gz 
 
 #########To load:
 library(CaTCH_R)
