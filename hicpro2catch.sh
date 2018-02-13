@@ -17,8 +17,8 @@ function usage {
 function help {
     usage;
     echo 
-    echo "Generate Higlass input file from HiC-Pro results"
-    echo "See https://github.com/hms-dbmi/higlass-website for details about Higlass"
+    echo "Generate CaTCH suitable format from HiCPro output"
+    echo "See https://github.com/zhanyinx/CaTCH_R for details about CaTCH"
     echo "---------------"
     echo "OPTIONS"
     echo
