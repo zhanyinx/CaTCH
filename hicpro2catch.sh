@@ -110,8 +110,8 @@ awk 'BEGIN{fn=0; nchr=0}{
 	if(fn==2){
 		for(i=0;i<nchr;i++){
 			if($1>=start[i] && $1<=end[i] && $2>=start[i] && $2<=end[i]){
-				print chr[i],$1-start[i],$2-start[i],$3 
-				print chr[i],$2-start[i],$1-start[i],$3 
+				print chr[i],$1-start[i],$2-start[i],$3 > chr[i]".CaTCH" 
+				print chr[i],$2-start[i],$1-start[i],$3 > chr[i]".CaTCH"
 			}
 		}
 	}
@@ -120,6 +120,6 @@ awk 'BEGIN{fn=0; nchr=0}{
 
 
 ###
-echo "The file $file.catch can be used as input for CaTCH"
+echo "The files *.CaTCH can be used as input for CaTCH"
 
 rm reduced_chromosome_file bin
