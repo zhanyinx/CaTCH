@@ -100,8 +100,9 @@ fi
 
 
 mkdir tmp
+cp $binfile tmp/tmp.dat
 cd tmp
-	awk '{print $0 > $1".dat"}' $binfile 
+	awk '{print $0 > $1".dat"}' tmp.dat
 	for files in `ls chr*`; do
         	awk 'BEGIN{min=99999999999999;max=-99}{if($4>max) max=$4; if($4<min) min=$4}END{print $1,min,max}' $files >> ../bin 
 
