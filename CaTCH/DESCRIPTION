@@ -1,0 +1,15 @@
+Package: CaTCH
+Type: Package
+Title: Call a hierarchy of domains based on Hi-C data
+Version: 1.0
+Date: 2016-07-05
+Author: Yinxiu Zhan
+Maintainer: Yinxiu Zhan <yinxiu.zhan@fmi.ch>
+Imports: parallel
+Description: This package allows building the hierarchy of
+        domains starting from Hi-C data. Each hierarchical
+        level is identified by a minimum value of physical
+        insulation between neighboring domains.
+License: GPL-2 or later
+NeedsCompilation: yes
+Packaged: 2018-12-06 10:00:10 UTC; yinxiu

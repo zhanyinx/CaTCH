@@ -1,0 +1,6 @@
+useDynLib("CaTCH")
+
+importFrom(parallel,makeCluster,stopCluster,parLapply,detectCores)
+importFrom("utils", "read.table")
+
+export(domain.call,domain.call.parallel)
