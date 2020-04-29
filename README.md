@@ -1,10 +1,9 @@
 # CaTCH
 
-########Download CaTCH_1.0.tar.gz 
-
-########Check that you have all libraries:
-R CMD check CaTCH_1.0.tar.gz
-#########should give just a note about empty directories
+## Steps
+1) Download CaTCH_1.0.tar.gz 
+2) Check that you have all libraries:
+3) R CMD check CaTCH_1.0.tar.gz
 
 #########To install:
 R CMD INSTALL CaTCH_1.0.tar.gz 
