@@ -7,15 +7,13 @@
 #include <R.h>
 #include <Rinternals.h>
 #include <Rmath.h>
-#define ND	1000
-#define MINSIZE	15
-#define MAXMOVE	3
+#define ND 1000
+#define MINSIZE 15
+#define MAXMOVE 3
 #define MINDIST 1
 
 float max(float a, float b);
 float min(float a, float b);
 float sum(int i, int j, unsigned short **mat);
 float dist(int i1, int j1, int i2, int j2, unsigned short **mat);
-SEXP catch(SEXP input);
-
-
+SEXP catch (SEXP input);
